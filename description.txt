@@ -1,0 +1,20 @@
+вопшем на основі того задача номер два
+твоя програма повинна запускатись наступним чином
+python3 render_pdf.py --values=values.json --template=template.tmpl --output=result.pdf
+
+на вхід приходить jsоn з набором полів
+{
+key1: val1,
+key2:val2
+...
+}
+
+акож можна задати шаблон pdf документа. наприклад
+"Hello {key1}!
+I need rain cover . It must be cheep. Prefferable company is {key2}.
+Regards {key3}
+"
+
+код програми повинен складатись з двох файлів(модулів): одни модуль
+містить функцію яка читає аргументи командної стрічки а в іншому
+файлі render_pdf.py виклик ціїє функції і генерація pdf
