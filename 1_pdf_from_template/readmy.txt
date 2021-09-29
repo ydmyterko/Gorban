@@ -1,0 +1,17 @@
+Here is the task. The program should run like this:
+python3 render_pdf.py --values=values.json --template=template.tmpl --output=result.pdf
+
+1) input data is in jsоn
+{
+key1: val1,
+key2:val2
+...
+}
+
+2) template for the PDF
+"Hello {key1}!
+I need rain cover . It must be cheep. Prefferable company is {key2}.
+Regards {key3}
+"
+3) the code should be with two modules: first contain fuction which reads the argument and 
+second render_pdf.py fie is calling the function and generate pdf
