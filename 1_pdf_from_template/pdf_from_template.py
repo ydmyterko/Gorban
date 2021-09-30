@@ -15,25 +15,29 @@ class TemplatePDF:
 
   def area(self):
     # Reading JSON file
-    optionStr=''
+    option_str=''
 
     with open(self.values) as f:
       data = json.load(f)
       print(data)
 
     for p in data:
-       optionStr += p['model'] + " - " + p['prise'] + "\n"
-
-    print(optionStr)
+        print(p)
+        pairs = p.items()
+        line=""
+        for key, value in pairs:
+          line += value + " "
+        option_str += line + "\n"
+        print(option_str)
 
     # Reading Template file
     with open(self.template) as file:
-      templateStr = file.read()
-    print(templateStr)
+      template_str = file.read()
+    print(template_str)
 
     # total string
-    totalStr = templateStr  + optionStr
-    print(totalStr)
+    total_str = template_str  + option_str
+    print(total_str)
 
     # creating PDF
     pdf = FPDF()
@@ -41,7 +45,7 @@ class TemplatePDF:
     pdf.set_font('Arial', 'B', 10)
 
     # Adding JSON text
-    pdf.multi_cell(100, 10, txt=str(totalStr))
+    pdf.multi_cell(100, 10, txt=str(total_str))
 
     # Creating output
     pdf.output(self.output, 'F')
