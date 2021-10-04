@@ -21,26 +21,13 @@ class TemplatePDF:
       data = json.load(f)
       print(data)
 
-    itemdict={}
-    for p in data:
-        print(p)
-        pairs = p.items()
-        value_1 = ''
-        value_2 = ''
-        i=0
-        for key, value in pairs:
-          i+=1
-          if i==1:  value_1 = value
-          if i==2:  value_2 = value
-        itemdict.update({value_1:value_2})
-
     # Reading Template file
     with open(self.template) as file:
       template_str = file.read()
     print(template_str)
 
     # total string
-    total_str = template_str  + str(itemdict)
+    total_str = template_str + str(data)
     print(total_str)
 
     # creating PDF

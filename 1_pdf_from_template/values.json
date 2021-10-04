@@ -1,5 +1,5 @@
-[
-  { "model":"Terra", "prise":"100" },
-  { "model":"Osprey", "prise":"500" },
-  { "model":"Peter", "prise":"300" }
-]
+{ "Terra":"100",
+  "Osprey": "500",
+  "Peter": "300"
+}
+
