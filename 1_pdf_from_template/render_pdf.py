@@ -11,9 +11,9 @@ values = args.values
 template = args.template
 output = args.output
 
-values = "values.json"
-template = "template.tmpl"
-output = "result.pdf"
+#values = "values.json"
+#template = "template.tmpl"
+#output = "result.pdf"
 
 print(values)
 print(template)
