@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4288f644-c13b-45f1-9c17-0b6482d7675c" name="Changes" comment="PDF content">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_pdf_from_template/pdf_content.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_pdf_from_template/render_pdf.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_pdf_from_template/render_pdf.py" afterDir="false" />
-    </list>
+    <list default="true" id="4288f644-c13b-45f1-9c17-0b6482d7675c" name="Changes" comment="PDF content" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633500745674</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="PDF content">
+      <created>1633502032080</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1633502032081</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
