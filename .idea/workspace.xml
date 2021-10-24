@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4288f644-c13b-45f1-9c17-0b6482d7675c" name="Changes" comment="PDF content">
-      <change afterPath="$PROJECT_DIR$/1_pdf_from_template/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pdf_from_template.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/read_pdf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/resource/template_1.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/resource/template_2.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/resource/tmpl_1_val_1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/result.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_render_template.py" afterDir="false" />
+    <list default="true" id="4288f644-c13b-45f1-9c17-0b6482d7675c" name="Changes" comment="PDF tests">
+      <change afterPath="$PROJECT_DIR$/1_pdf_from_template/command" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_pdf_from_template/pdf_from_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_pdf_from_template/pdf_from_template.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pdf_from_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/pdf_from_template.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/read_pdf.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/read_pdf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/resource/template_1.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/test/resource/template_1.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/result.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/test/result.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_render_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_render_template.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633502296768</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="PDF tests">
+      <created>1634940391758</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1634940391758</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,6 +251,7 @@
     <MESSAGE value="Fix for hardcoded keys" />
     <MESSAGE value="Dictionary changes" />
     <MESSAGE value="PDF content" />
-    <option name="LAST_COMMIT_MESSAGE" value="PDF content" />
+    <MESSAGE value="PDF tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="PDF tests" />
   </component>
 </project>
